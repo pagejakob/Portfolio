@@ -1,0 +1,81 @@
+html  
+    include partials/header
+
+    body
+        block content
+            .wrapper
+                .menu
+                    ul
+                        li
+                            a(href='#home') Home
+                        li
+                            a(href='#news') News
+                        li
+                            a(href='#contact') Contact
+                        li
+                            a(href='#about') About
+                .slide
+                    //- img(src="https://images.unsplash.com/photo-1504198458649-3128b932f49e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3c3159844b2725e33a49be117a24a3c0&auto=format&fit=crop&w=1268&q=80")
+                .content
+                    .name
+                        h1  Jakob Page
+                        p   0468 999 090 
+                        p   Pagejakob@gmail.com
+
+                    .experience
+                        .header
+                            h2  Experience
+                        .work1
+                            h3  Intern Web Developer 
+                            h4  Collective Us 2017-Present
+                            p   Optimising web and landing pages for clients
+                            p   Gaining experience using HTML, PUG, Node, Javascript and CSS Improved clients website search ranking through SEO
+                        .work2
+                            h3  Intern Mobile Developer 
+                            h4  ADWEB - 2017
+                            p   Gained experience using C# and Visual Studio to create a cross-platform application
+                            p   Learned about mobile development and design
+                            p   Working with a global team to create a product
+                        .work3
+                            h3  Web Developer
+                            h4  Serving Aces - 2017
+                            p   Meeting with the clients to discuss the project requirements
+                            p   Created a new website for client with modern standards and design Created a digital storefront allowing the client to sell their products online using CMS PrestaShop
+                
+                    .etc
+                        .education
+                            h2  Education
+                            .edu
+                                h3  Software Development - 2017
+                                h4  Diploma
+                                p   Swinburne University of Technology
+                            .edu
+                                h3  Software Development - 2016
+                                h4  Certificate IV
+                                p   Swinburne University of Technology
+                        
+                        .ref
+                            h2  References
+                            .refOne
+                                h3  Jude Rus, Founder
+                                h4  Collective Us
+                                p   0401 360 908 | jude.r@collectiveus.com
+                            .refTwo
+                                h3  Anh Nguyen, Course Co-ordinator 
+                                h4  Swinburne University 
+                                p   0437 861 403 | anguyen@swin.edu.au
+                        
+                        .social
+                            .logo
+                                a(href='http://github.com/pagejakob')
+                                    img(src='img/github.svg', height="100px")
+                            .logo
+                                a(href='https://www.linkedin.com/in/pagejakob/')
+                                img(src='img/linkedin.svg', height="100px")
+                            .logo
+                                a(href='https://www.instagram.com/pagejakob/')
+                                    img(src='img/instagram.svg', height="100px")
+
+
+                include partials/footer       
+            
