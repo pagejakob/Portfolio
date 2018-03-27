@@ -1,10 +1,11 @@
 {
   "name": "portfolio",
-  "version": "1.9.0",
+  "version": "2.0.0",
   "description": "Profile Site for PageJakob",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "author": "PageJakob",
   "license": "ISC",
